@@ -2,8 +2,8 @@
 
 const Courselists = () => {
     return (
-        <div className="md:w-1/4">
-            <h2>COURSELIST</h2>
+        <div className="md:w-[350px]">
+            <h2>Course Name</h2>
         </div>
     );
 };

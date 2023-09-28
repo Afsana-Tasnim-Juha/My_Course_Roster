@@ -9,13 +9,25 @@ import Courselists from './Components/Courselist/Courselists'
 function App() {
 
 
+  const [lists, setLists] = ([]);
+
+  const handleSelect = () => {
+    console.log('adding');
+  }
+
+
+
   return (
     <>
 
       <div className='md:flex'>
-        <Courses></Courses>
+
+        <Courses handleSelect={handleSelect}></Courses>
         <Courselists></Courselists>
       </div>
+
+
+
 
 
 
