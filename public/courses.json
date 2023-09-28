@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "img": "https://i.ibb.co/7nBxL0V/Rectangle-2.png",
         "title": "Introduction to OOP Python",
         "credit": 5,
@@ -7,6 +8,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 2,
         "img": "https://i.ibb.co/WtdkMP4/Rectangle-2-1.png",
         "title": "Database (MySQL)",
         "credit": 5,
@@ -14,6 +16,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 3,
         "img": "https://i.ibb.co/5x9SctX/Rectangle-2-2.png",
         "title": "Introduction to C Programming",
         "credit": 1,
@@ -21,6 +24,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 4,
         "img": "https://i.ibb.co/3SQ48bg/Rectangle-2-3.png",
         "title": "Introduction to Algorithms",
         "credit": 3,
@@ -28,6 +32,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 5,
         "img": "https://i.ibb.co/ws9MdC6/Rectangle-2-4.png",
         "title": "Introduction to C++ for DSA",
         "credit": 4,
@@ -35,6 +40,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 6,
         "img": "https://i.ibb.co/F6bN49L/Rectangle-2-5.png",
         "title": "Software Engineering",
         "credit": 3,
@@ -42,6 +48,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 7,
         "img": "https://i.ibb.co/gZpf3nV/Rectangle-2-6.png",
         "title": "Problem-Solving Part",
         "credit": 2,
@@ -49,6 +56,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 8,
         "img": "https://i.ibb.co/XtLxdF6/Rectangle-3.png",
         "title": "Basic Data Structures",
         "credit": 4,
@@ -56,6 +64,7 @@
         "course_details": "Demystify AI and machine learning. Understand their applications and impact on various industries."
     },
     {
+        "id": 9,
         "img": "https://i.ibb.co/mDyXtkX/Rectangle-3-1.png",
         "title": "AWS, Cloud Computing",
         "credit": 5,

@@ -3,7 +3,7 @@
 const Courselists = () => {
     return (
         <div className="md:w-1/4">
-            <h2>Courselist</h2>
+            <h2>COURSELIST</h2>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import SingleCourse from "../SingleCourse/SingleCourse";
 
 
 const Courses = () => {
@@ -16,6 +17,13 @@ const Courses = () => {
     return (
         <div className="md:w-3/4">
             <h1>Courses: {courses.length}</h1>
+            {
+                courses.map(singleCourse => <SingleCourse
+                    key={singleCourse.id}
+                    singleCourse={singleCourse}>
+
+                </SingleCourse>)
+            }
 
         </div>
     );
