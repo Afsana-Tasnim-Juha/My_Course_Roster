@@ -1,21 +1,27 @@
 import PropTypes from 'prop-types';
 import SingleCourseList from '../SingleCourseList/SingleCourseList';
 
-
-const Courselists = ({ lists }) => {
+const Courselists = ({ lists, remaining, totalCredit }) => {
     return (
-        <div className="md:w-[300px] text-center ml-10  bg-[#FFF] rounded-sm ">
-            <h2 className='font-bold'>Course Name: {lists.length}</h2>
+        <div className="md:w-[300px] text-center ml-10 bg-[#FFF] rounded-sm">
+            <h3 className='text-[#2F80ED] border-b-2 pb-4 font-bold'>Credit Hour Remaining {remaining} hr</h3>
+            <h2 className='font-bold pb-4 pt-4 text-xl'>Course Name: {lists.length}</h2>
+
             {
-                lists.map(singleCourseList => <SingleCourseList key={singleCourseList.id} singleCourseList={singleCourseList}></SingleCourseList>)
+                lists.map(singleCourseList => (
+                    <SingleCourseList key={singleCourseList.id} singleCourseList={singleCourseList} />
+                ))
             }
+
+            <h4 className='pb-4 pt-4'>Total Credit Hour: {totalCredit}</h4>
         </div>
     );
 };
 
 Courselists.propTypes = {
-    lists: PropTypes.array
-
+    lists: PropTypes.array,
+    remaining: PropTypes.number.isRequired,
+    totalCredit: PropTypes.number.isRequired,
 }
 
 export default Courselists;

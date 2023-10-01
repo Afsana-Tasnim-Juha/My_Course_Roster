@@ -27,7 +27,9 @@ const SingleCourse = ({ singleCourse, handleSelect }) => {
 
                     </div>
                     <div className="card-actions">
-                        <button onClick={() => handleSelect(singleCourse)} className="btn btn-primary w-full h-[40px] bg-blue-600 rounded-lg text-white mt-4">Select</button>
+                        <button onClick={() => handleSelect(singleCourse)}
+
+                            className="btn btn-primary w-full h-[40px] bg-blue-600 rounded-lg text-white mt-4">Select</button>
                     </div>
 
                 </div>
