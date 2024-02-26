@@ -4,7 +4,7 @@ const SingleCourseList = ({ singleCourseList }) => {
     const { title } = singleCourseList;
     return (
         <div className='border-b-2'>
-            <ol className='text-zinc-500 text-xl p-y-5  '>{title}</ol>
+            <ol className='text-zinc-500 text-base p-y-5  '>{title}</ol>
         </div>
     );
 };
